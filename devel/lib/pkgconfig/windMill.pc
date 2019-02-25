@@ -1,0 +1,8 @@
+prefix=/home/yzchen/catkin_ws/devel
+
+Name: windMill
+Description: Description of windMill
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yzchen/catkin_ws/devel/lib 
+Requires: 

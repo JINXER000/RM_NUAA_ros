@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="windMill" type="windMill_node" name="windMill" output="screen"   />
+    <node pkg="video_pub" type="video_pub_node" name="video_pub" respawn="true" />
+</launch>
