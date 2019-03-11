@@ -18,7 +18,8 @@ using namespace std;
  
 using namespace std;
 using namespace cv;
- 
+
+string video_source;
 int main(int argc, char **argv)
 {
   ros::init(argc,argv,"video_publisher");
@@ -26,12 +27,13 @@ int main(int argc, char **argv)
   image_transport::ImageTransport it(nh);//发布图片需要用到image_transport
   image_transport::Publisher pub = it.advertise("camera/image_raw", 1);
  
+  nh.getParam("/video_source",video_source);
 
   ros::Rate loop_rate(30);
-  string path = "/home/yzchen/catkin_ws/videos/windMill.mp4";
+//  string path = "/home/yzchen/catkin_ws/videos/windMill.mp4";
 
  
-  VideoCapture cap(path);//open video from the path
+  VideoCapture cap(video_source);//open video from the path
   if(!cap.isOpened())
   {
   std::cout<<"open video failed!"<<std::endl;

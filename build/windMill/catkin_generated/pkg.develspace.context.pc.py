@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "windMill"
-PROJECT_SPACE_DIR = "/home/yzchen/catkin_ws/devel"
+PROJECT_SPACE_DIR = "/home/nvidia/yzchen_ws/RM_NUAA_ros/devel"
 PROJECT_VERSION = "0.0.0"

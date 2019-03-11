@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example.dir/src/example.cpp.o"
-  "/home/yzchen/catkin_ws/devel/lib/my_pcl_tutorial/example.pdb"
-  "/home/yzchen/catkin_ws/devel/lib/my_pcl_tutorial/example"
+  "/home/nvidia/yzchen_ws/RM_NUAA_ros/devel/lib/my_pcl_tutorial/example.pdb"
+  "/home/nvidia/yzchen_ws/RM_NUAA_ros/devel/lib/my_pcl_tutorial/example"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yzchen/catkin_ws/src/video_pub/src/video_pub.cpp" "/home/yzchen/catkin_ws/build/video_pub/CMakeFiles/video_pub_node.dir/src/video_pub.cpp.o"
+  "/home/nvidia/yzchen_ws/RM_NUAA_ros/src/video_pub/src/video_pub.cpp" "/home/nvidia/yzchen_ws/RM_NUAA_ros/build/video_pub/CMakeFiles/video_pub_node.dir/src/video_pub.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

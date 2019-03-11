@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzchen/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/nvidia/yzchen_ws/RM_NUAA_ros/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzchen/catkin_ws/build
+CMAKE_BINARY_DIR = /home/nvidia/yzchen_ws/RM_NUAA_ros/build
 
 # Utility rule file for tf_generate_messages_py.
 
@@ -63,10 +63,10 @@ my_pcl_tutorial/CMakeFiles/tf_generate_messages_py.dir/build: tf_generate_messag
 .PHONY : my_pcl_tutorial/CMakeFiles/tf_generate_messages_py.dir/build
 
 my_pcl_tutorial/CMakeFiles/tf_generate_messages_py.dir/clean:
-	cd /home/yzchen/catkin_ws/build/my_pcl_tutorial && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/nvidia/yzchen_ws/RM_NUAA_ros/build/my_pcl_tutorial && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : my_pcl_tutorial/CMakeFiles/tf_generate_messages_py.dir/clean
 
 my_pcl_tutorial/CMakeFiles/tf_generate_messages_py.dir/depend:
-	cd /home/yzchen/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzchen/catkin_ws/src /home/yzchen/catkin_ws/src/my_pcl_tutorial /home/yzchen/catkin_ws/build /home/yzchen/catkin_ws/build/my_pcl_tutorial /home/yzchen/catkin_ws/build/my_pcl_tutorial/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nvidia/yzchen_ws/RM_NUAA_ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/yzchen_ws/RM_NUAA_ros/src /home/nvidia/yzchen_ws/RM_NUAA_ros/src/my_pcl_tutorial /home/nvidia/yzchen_ws/RM_NUAA_ros/build /home/nvidia/yzchen_ws/RM_NUAA_ros/build/my_pcl_tutorial /home/nvidia/yzchen_ws/RM_NUAA_ros/build/my_pcl_tutorial/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_pcl_tutorial/CMakeFiles/tf_generate_messages_py.dir/depend
 

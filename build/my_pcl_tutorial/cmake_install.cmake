@@ -1,8 +1,8 @@
-# Install script for directory: /home/yzchen/catkin_ws/src/my_pcl_tutorial
+# Install script for directory: /home/nvidia/yzchen_ws/RM_NUAA_ros/src/my_pcl_tutorial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yzchen/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nvidia/yzchen_ws/RM_NUAA_ros/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yzchen/catkin_ws/build/my_pcl_tutorial/catkin_generated/installspace/my_pcl_tutorial.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nvidia/yzchen_ws/RM_NUAA_ros/build/my_pcl_tutorial/catkin_generated/installspace/my_pcl_tutorial.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_pcl_tutorial/cmake" TYPE FILE FILES
-    "/home/yzchen/catkin_ws/build/my_pcl_tutorial/catkin_generated/installspace/my_pcl_tutorialConfig.cmake"
-    "/home/yzchen/catkin_ws/build/my_pcl_tutorial/catkin_generated/installspace/my_pcl_tutorialConfig-version.cmake"
+    "/home/nvidia/yzchen_ws/RM_NUAA_ros/build/my_pcl_tutorial/catkin_generated/installspace/my_pcl_tutorialConfig.cmake"
+    "/home/nvidia/yzchen_ws/RM_NUAA_ros/build/my_pcl_tutorial/catkin_generated/installspace/my_pcl_tutorialConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_pcl_tutorial" TYPE FILE FILES "/home/yzchen/catkin_ws/src/my_pcl_tutorial/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_pcl_tutorial" TYPE FILE FILES "/home/nvidia/yzchen_ws/RM_NUAA_ros/src/my_pcl_tutorial/package.xml")
 endif()
 

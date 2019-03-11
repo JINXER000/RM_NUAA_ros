@@ -1,2 +1,2 @@
 my_pcl_tutorial:video_pub:windMill
--G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/yzchen/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yzchen/catkin_ws/install
+-G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/nvidia/yzchen_ws/RM_NUAA_ros/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/yzchen_ws/RM_NUAA_ros/install

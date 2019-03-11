@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yzchen/catkin_ws/src/my_pcl_tutorial/src/example.cpp" "/home/yzchen/catkin_ws/build/my_pcl_tutorial/CMakeFiles/example.dir/src/example.cpp.o"
+  "/home/nvidia/yzchen_ws/RM_NUAA_ros/src/my_pcl_tutorial/src/example.cpp" "/home/nvidia/yzchen_ws/RM_NUAA_ros/build/my_pcl_tutorial/CMakeFiles/example.dir/src/example.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,15 +23,15 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/pcl-1.7"
   "/usr/include/ni"
   "/usr/include/vtk-6.2"
-  "/usr/include/jsoncpp"
-  "/usr/include/libxml2"
-  "/usr/include/x86_64-linux-gnu"
+  "/usr/include/aarch64-linux-gnu"
   "/usr/include/freetype2"
-  "/usr/include/python2.7"
   "/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent"
   "/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include"
   "/usr/lib/openmpi/include"
   "/usr/lib/openmpi/include/openmpi"
+  "/usr/include/jsoncpp"
+  "/usr/include/python2.7"
+  "/usr/include/libxml2"
   "/usr/include/tcl"
   )
 

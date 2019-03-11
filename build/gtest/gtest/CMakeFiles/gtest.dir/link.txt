@@ -1,1 +1,1 @@
-/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/yzchen/catkin_ws/build/gtest/gtest/src -lpthread -Wl,-rpath,/home/yzchen/catkin_ws/build/gtest/gtest/src 
+/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/nvidia/yzchen_ws/RM_NUAA_ros/build/gtest/gtest/src -lpthread -Wl,-rpath,/home/nvidia/yzchen_ws/RM_NUAA_ros/build/gtest/gtest/src 

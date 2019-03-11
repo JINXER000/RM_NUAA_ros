@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yzchen/catkin_ws/src/windMill/src/main.cpp
+/home/nvidia/yzchen_ws/RM_NUAA_ros/src/windMill/src/main.cpp
 ros/ros.h
 -
 image_transport/image_transport.h

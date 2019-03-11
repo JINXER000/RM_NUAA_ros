@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/windMill_node.dir/src/main.cpp.o"
-  "/home/yzchen/catkin_ws/devel/lib/windMill/windMill_node.pdb"
-  "/home/yzchen/catkin_ws/devel/lib/windMill/windMill_node"
+  "/home/nvidia/yzchen_ws/RM_NUAA_ros/devel/lib/windMill/windMill_node.pdb"
+  "/home/nvidia/yzchen_ws/RM_NUAA_ros/devel/lib/windMill/windMill_node"
 )
 
 # Per-language clean rules from dependency scanning.

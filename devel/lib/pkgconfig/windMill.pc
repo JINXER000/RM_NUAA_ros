@@ -1,8 +1,8 @@
-prefix=/home/yzchen/catkin_ws/devel
+prefix=/home/nvidia/yzchen_ws/RM_NUAA_ros/devel
 
 Name: windMill
 Description: Description of windMill
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/yzchen/catkin_ws/devel/lib 
+Libs: -L/home/nvidia/yzchen_ws/RM_NUAA_ros/devel/lib 
 Requires: 

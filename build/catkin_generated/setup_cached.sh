@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/yzchen/catkin_ws/build"
+export CMAKE_PREFIX_PATH="/home/nvidia/yzchen_ws/RM_NUAA_ros/devel:$CMAKE_PREFIX_PATH"
+export PWD="/home/nvidia/yzchen_ws/RM_NUAA_ros/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/nvidia/yzchen_ws/RM_NUAA_ros/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/nvidia/yzchen_ws/RM_NUAA_ros/src:$ROS_PACKAGE_PATH"

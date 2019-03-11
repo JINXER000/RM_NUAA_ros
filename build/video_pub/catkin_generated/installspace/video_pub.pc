@@ -1,8 +1,8 @@
-prefix=/home/yzchen/catkin_ws/install
+prefix=/home/nvidia/yzchen_ws/RM_NUAA_ros/install
 
 Name: video_pub
 Description: Description of video_pub
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/yzchen/catkin_ws/install/lib 
+Libs: -L/home/nvidia/yzchen_ws/RM_NUAA_ros/install/lib 
 Requires: 

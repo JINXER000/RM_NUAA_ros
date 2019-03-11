@@ -11,10 +11,10 @@ using namespace cv;
 void get_centre(const cv::Mat& srcImg)
 {
     cv::Mat result,greyImg;
-     std::string prefix="/home/yzchen/catkin_ws/src/windMill/center_templ/";
+     std::string prefix="/home/nvidia/yzchen_ws/RM_NUAA_ros/src/windMill/center_templ/";
     std::vector<cv::Mat> db;
     db.push_back(cv::imread(prefix + "center11.png", 0));
-    db.push_back(cv::imread(prefix + "center8.png", 0));
+//    db.push_back(cv::imread(prefix + "center8.png", 0));
     if(srcImg.channels()!=1)
     {
         cvtColor(srcImg,greyImg,CV_BGR2GRAY);

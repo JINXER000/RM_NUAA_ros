@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yzchen/catkin_ws/src/video_pub/src/video_pub.cpp
+/home/nvidia/yzchen_ws/RM_NUAA_ros/src/video_pub/src/video_pub.cpp
 iostream
 -
 ros/ros.h
@@ -18,7 +18,7 @@ sstream
 iostream
 -
 opencv2/opencv.hpp
-/home/yzchen/catkin_ws/src/video_pub/src/opencv2/opencv.hpp
+/home/nvidia/yzchen_ws/RM_NUAA_ros/src/video_pub/src/opencv2/opencv.hpp
 opencv2/highgui/highgui.hpp
 -
 cv_bridge/cv_bridge.h

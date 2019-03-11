@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzchen/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/nvidia/yzchen_ws/RM_NUAA_ros/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzchen/catkin_ws/build
+CMAKE_BINARY_DIR = /home/nvidia/yzchen_ws/RM_NUAA_ros/build
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/yzchen/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzchen/catkin_ws/src /home/yzchen/catkin_ws/src /home/yzchen/catkin_ws/build /home/yzchen/catkin_ws/build /home/yzchen/catkin_ws/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nvidia/yzchen_ws/RM_NUAA_ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/yzchen_ws/RM_NUAA_ros/src /home/nvidia/yzchen_ws/RM_NUAA_ros/src /home/nvidia/yzchen_ws/RM_NUAA_ros/build /home/nvidia/yzchen_ws/RM_NUAA_ros/build /home/nvidia/yzchen_ws/RM_NUAA_ros/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 
